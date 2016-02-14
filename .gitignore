@@ -1,0 +1,14 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+*.mwb.bak
+node_modules
+semantic/
+resources/
+*.lock
+twitter4j.properties

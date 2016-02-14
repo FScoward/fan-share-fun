@@ -1,0 +1,27 @@
+
+
+<div class="ui segment">
+    <div class="ui left rail">
+        <div class="ui segment">
+            Left Rail Content
+        </div>
+    </div>
+    <div class="ui right rail">
+        <div class="ui segment">
+            Right Rail Content
+        </div>
+    </div>
+
+    <div class="ui relaxed divided animated list">
+        <div class="item" *ngFor="#item of events">
+            <i class="large github middle aligned icon"></i>
+            <div class="content">
+                <a class="header">{{item.eventId}}: {{item.eventName}}</a>
+                <div class="description">Updated 10 mins ago</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
